@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SkateTricks</string>
+    <string name="local_service_started" />
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_done">Gotowe</string>
+    <string name="action_stats">Statystyki</string>
+    <string name="title_activity_stats">Skate Statystyki</string>
+    <string name="title_activity_settings">Skate Ustawienia</string>
+
+    <string name="battery">Bateria</string>
+    <string name="battery1">Bateria:</string>
+    <string name="services_reset">Service jest resetowany</string>
+    <string name="sleep_mode">Tryb uśpienia wł.</string>
+    <string name="mth_streams_data">MTH Streamuje Dane</string>
+    <string name="trick_rotation">Rotacja tricku</string>
+    <string name="app_successfully_configured">Aplikacja skonfigurowana</string>
+    <string name="welcome_to_skatetricks">Witaj w SkateTricks!</string>
+    <string name="start_all">Start Stream</string>
+    <string name="stop_all">Stop Stream</string>
+    <string name="stop_all_and_save_data">Zatrzymaj Stream i Zapisz Dane</string>
+    <string name="data_stream_information">Informacja o streamie danych</string>
+
+    <string name="to_be_decided">Brak tricku</string>
+    <string name="recently_made_trick">Ostatnio wykonany trick</string>
+    <string name="top_5_most_frequently_made_tricks">5 Najczęściej wykonywanych tricków</string>
+    <string name="trick_name">nazwa tricku</string>
+    <string name="times">ilość</string>
+
+    <string name="set_mac_address_of_mw_device">Ustal adres MAC urządzenia MW</string>
+    <string name="select_your_stance">Wybierz swój stance</string>
+    <string name="select_mode_of_trick_recognition">Wybierz tryb wykrywania tricku</string>
+    <string name="select_application_mode">Wybierz tryb pracy aplikacji</string>
+    <string name="set_trick_appearance_time">Ustal czas trwania animacji</string>
+    <string name="about_authors">O Autorach</string>
+    <string name="normal">Normal</string>
+    <string name="handmode">Handmode</string>
+
+    <string name="about_authors_1">Autorem aplikacji jest Bartłomiej Sotniczuk,</string>
+    <string name="about_authors_2">student ITA w</string>
+    <string name="about_authors_3">Wojskowej Akademii Technicznej w Warszawie</string>
+    <string name="about_authors_4">Specjalne podziękowania</string>
+    <string name="about_authors_5">dla Eric Tsai,</string>
+    <string name="about_authors_6">autora MbientLab MetaWear API</string>
+    <string name="about_authors_7">Animacje zostały wytworzone przez</string>
+    <string name="about_authors_8">en.nollieskateboarding.com</string>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SkateTricks</string>
+    <string name="local_service_started" />
+    <string name="action_settings">Settings</string>
+    <string name="action_done">Done</string>
+    <string name="action_stats">Statistics</string>
+    <string name="title_activity_stats">Skate Statistics</string>
+    <string name="title_activity_settings">Skate Settings</string>
+
+    <string name="battery">Battery</string>
+    <string name="battery1">Battery:</string>
+    <string name="services_reset">Services are being reset</string>
+    <string name="sleep_mode">Sleep mode enabled</string>
+    <string name="mth_streams_data">MTH Streams Data</string>
+    <string name="trick_rotation">Trick Rotation Info</string>
+    <string name="app_successfully_configured">App successfully configured</string>
+    <string name="welcome_to_skatetricks">Welcome to SkateTricks!</string>
+    <string name="start_all">Start All</string>
+    <string name="stop_all">Stop All</string>
+    <string name="stop_all_and_save_data">Stop All And Save Data</string>
+    <string name="data_stream_information">Data Stream Information</string>
+
+    <string name="to_be_decided">To be decided</string>
+    <string name="recently_made_trick">Recently made trick</string>
+    <string name="top_5_most_frequently_made_tricks">Top 5 Most Frequently Made Tricks</string>
+    <string name="trick_name">trick name</string>
+    <string name="times">times</string>
+
+    <string name="set_mac_address_of_mw_device">Set MacAddress of MW Device</string>
+    <string name="select_your_stance">Select your stance</string>
+    <string name="select_mode_of_trick_recognition">Select mode of trick recognition</string>
+    <string name="select_application_mode">Select application mode</string>
+    <string name="set_trick_appearance_time">Set Trick appearance time</string>
+    <string name="about_authors">About Authors</string>
+    <string name="normal">Normal</string>
+    <string name="handmode">Handmode</string>
+
+    <string name="about_authors_1">Application author is Bartłomiej Sotniczuk,</string>
+    <string name="about_authors_2">ITA WAT</string>
+    <string name="about_authors_3">(Military University of Technology in Warsaw) student</string>
+    <string name="about_authors_4">Special thanks to</string>
+    <string name="about_authors_5">Eric Tsai,</string>
+    <string name="about_authors_6">author of MbientLab MetaWear API</string>
+    <string name="about_authors_7">Animation creators are</string>
+    <string name="about_authors_8">en.nollieskateboarding.com</string>
+</resources>

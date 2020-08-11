@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".SettingsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        tools:context=".SettingsActivity">
+
+        <TextView
+            android:id="@+id/macAddressText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/set_mac_address_of_mw_device"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_below="@id/macAddressText"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="false">
+
+            <EditText
+                android:id="@+id/macText1"
+                android:paddingLeft="10dp"
+                android:background="@drawable/roundedtextview"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:inputType="textCapCharacters"
+                android:text=""
+                android:imeOptions="actionNext"
+                android:onClick="macEditTextClicked"
+                android:cursorVisible="false">
+            </EditText>
+
+            <TextView
+                android:id="@+id/Colon1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1.15"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/macText2"
+                android:paddingLeft="10dp"
+                android:background="@drawable/roundedtextview"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:inputType="textCapCharacters"
+                android:text=""
+                android:imeOptions="actionNext">
+            </EditText>
+
+            <TextView
+                android:id="@+id/Colon2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1.15"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/macText3"
+                android:paddingLeft="10dp"
+                android:background="@drawable/roundedtextview"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:inputType="textCapCharacters"
+                android:text=""
+                android:imeOptions="actionNext">
+            </EditText>
+
+            <TextView
+                android:id="@+id/Colon3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1.15"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/macText4"
+                android:paddingLeft="10dp"
+                android:background="@drawable/roundedtextview"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:inputType="textCapCharacters"
+                android:text=""
+                android:imeOptions="actionNext">
+            </EditText>
+
+            <TextView
+                android:id="@+id/Colon4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1.15"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/macText5"
+                android:paddingLeft="10dp"
+                android:background="@drawable/roundedtextview"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:inputType="textCapCharacters"
+                android:text=""
+                android:imeOptions="actionNext">
+            </EditText>
+
+            <TextView
+                android:id="@+id/Colon5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1.15"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/macText6"
+                android:paddingLeft="10dp"
+                android:background="@drawable/roundedtextview"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:inputType="textCapCharacters"
+                android:text="">
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/stanceText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/LinearLayout01"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/select_your_stance"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_below="@id/stanceText"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="false"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switchStance"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_below="@id/stanceText"
+                android:layout_marginLeft="24dp"
+                android:switchMinWidth="60dp"
+                android:text="Goofy"
+                android:onClick="switchClicked"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textRegular"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.4"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:paddingTop="8dp"
+                android:text="Regular"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:onClick="textClicked"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/modesText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/LinearLayout02"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/select_mode_of_trick_recognition"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_below="@id/modesText"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="false"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/handModeSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_below="@id/stanceText"
+                android:layout_marginLeft="24dp"
+                android:switchMinWidth="60dp"
+                android:text="@string/normal"
+                android:onClick="switchClicked"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/handModeOffText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.4"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:paddingTop="8dp"
+                android:text="@string/handmode"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:onClick="textClicked" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/modesOfAppText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/LinearLayout03"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/select_application_mode"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_below="@id/modesOfAppText"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="false"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/appModeSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_below="@id/stanceText"
+                android:layout_marginLeft="24dp"
+                android:switchMinWidth="60dp"
+                android:text="@string/normal"
+                android:onClick="switchClicked"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/appModeNormalText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.4"
+                android:maxLines="1"
+                android:paddingLeft="1dp"
+                android:paddingTop="8dp"
+                android:text="Debug"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:onClick="textClicked" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timeOfTrickText"
+            android:layout_below="@id/LinearLayout04"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/set_trick_appearance_time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/timeOfTrickTextEditText"
+            android:layout_below="@id/timeOfTrickText"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundedtextview"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:imeOptions="actionNext">
+        </EditText>
+
+        <Button
+            android:id="@+id/authorButton"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/roundedtextview"
+            android:textColor="@android:color/white"
+            android:onClick="aboutAuthors"
+            android:text="@string/about_authors">
+        </Button>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
